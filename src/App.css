@@ -23,10 +23,48 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+/* custom */
 
+.img-wrapper img{
+  width: 100px;
+}
+
+.cart-wrapper
+{
+  border: 1px solid rgb(0, 0, 0);
+  width: 400px;
+  margin: 10px;
+  height: 150px;
+}
+.btn-wrapper button {
+  margin-top: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.item{
+  float: left;
+  display: inline-block;
+  padding:20px;
+  width: 120px;
+}
+
+
+.add-to-cart img {
+  width: 90px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+/* //custom */
 .App-link {
   color: #61dafb;
 }
+
+
 
 @keyframes App-logo-spin {
   from {
